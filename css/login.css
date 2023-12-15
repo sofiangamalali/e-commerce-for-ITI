@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEE;
+    height: 600px !important;
+}
+.main-div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    transform: translate(15%, 10%);
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 40px;
+   
+
+
+}
+
+.login-info {
+    padding: 30px;
+
+
+}
+
+.displayMsg ,.displayMsg-required{
+    display: none;
+    color: red;
+    text-align: center;
+}
+
+.msgError {
+    display: block;
+    margin: 8px 0 0 0 !important;
+    color: red;
+    font-weight: bold;
+    font-size: 18px !important;
+
+}
+
+.login-info h2 {
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    font-size: 2rem;
+    margin: 0;
+}
+
+.login-info h2,
+p {
+    text-align: center;
+
+    margin: 0;
+
+
+}
+
+.login-info input[type="text"],
+input[type="password"] {
+    background-color: rgb(206, 208, 246);
+}
+
+.login-info p {
+    font-size: 1.02rem;
+}
+
+.login-info input,
+.login-btns button {
+
+    width: 80%;
+    margin: 6px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    transform: translate(13%, 40%);
+
+}
+
+.login-info input[type="button"] {
+    cursor: pointer;
+    width: 30%;
+    margin: 20px 35%;
+    padding: 0.8rem;
+    color: white;
+    border-color: bisque;
+
+
+}
+
+p span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.login-btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 29px;
+
+
+}
+
+.login-btns button {
+    border: 1px solid #b4a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login-btns button a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.login-btns button a span {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 4px;
+
+}
+
+.login-btn {
+    /* position: absolute; */
+    background-color: rgb(18, 145, 238);
+    cursor: pointer;
+    width: 50%;
+
+    margin: 20px 40%;
+    margin-top: 20px;
+    padding: 0.8rem;
+    color: white;
+    border-color: bisque;
+    border-radius: 20%;
+
+
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.login-img {
+    width: 600px;
+    height: 600px;
+
+    border-radius: 0 40px 40px 0;
+    background-image: url(../assets/background-login.jpg);
+
+}
+
+.img {
+    transform: translate(20%, 30%);
+}
+
+.img img {
+    width: 350px;
+    border-radius: 10%;
+
+}

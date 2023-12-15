@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../assets/minlogo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/Category.css" />
+  <script src="../js/category.js" defer></script>
+  <title>Category Page</title>
+</head>
+
+<body>
+  <div class="header-container">
+    <header>
+      <div class="logo-container">
+        <img src="../assets/logo.jpg" alt="">
+      </div>
+      <div class="home-icon">
+        <img src="../assets/home-icon.png" alt="" onclick="goHome()">
+      </div>
+      <div class="search-container">
+        <input type="search" name="" id="search" placeholder="Search Your Item" autocomplete="off"
+          onkeyup="searchItemByName(this.value)" onblur="hideSearchResult()" onfocus="searchItemByName(this.value)">
+        <div class="sug-container">
+        </div>
+      </div>
+      <div class="account-icon">
+        <img src="../assets/person-icon.png" alt="" onclick="goProfile()">
+      </div>
+      <div class="cart-icon">
+        <img src="../assets/cart-icon.png" alt="" onclick="goCart()">
+      </div>
+    </header>
+
+
+  </div>
+
+ 
+  <div class="products-container"></div>
+  <div class="footer-container">
+    <footer>
+        <div class="logo-container-footer">
+            <img src="../assets/footer-logo.jpg" >
+            <div class="socail-media-links-container">
+                <div class="link-container">
+                    <img src="../assets/facebook.png" alt="">
+
+                </div>
+                <div class="link-container">
+                    <img src="../assets/instagram.png" alt="">
+
+
+                </div>
+                <div class="link-container">
+                    <img src="../assets/twitter.png" alt="">
+
+
+                </div>
+                <div class="link-container">
+                    <img src="../assets/linked-in.png">
+
+                </div>
+            </div>
+        </div>
+        <div class="quick-links-container">
+            <span  class="title-span"> Quick Link</span>
+            <a href="home.html">Home</a>
+            <a href="profile.html">Account</a>
+            <a href="cart.html">Cart</a>
+
+        </div>
+</div>
+</footer>
+</body>
+
+</html>

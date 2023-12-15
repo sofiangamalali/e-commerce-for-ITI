@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/minlogo.jpg" />
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <section>
+        <div class="login-section container">
+            <div class="main-div">
+                <div class="login-info">
+                    <h2>Login</h2>
+                    <form action="" id="form">
+                        <span class="displayMsg" >Your username or password is incorrect</span>
+                        <span class="displayMsg-required" >Username and Password is required</span>
+                        <input type="text" name="username" id="username" placeholder="Username" required onfocus="onfoucsUserName() ">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <br>
+                        <br>
+                        <a class="login-btn" id="loginBtn" onclick="Login()">Login</a>
+
+                    </form>
+                    <br>
+                    <br>
+                    <p><span>Login</span>with others</p>
+                    <div class="login-btns">
+                        <button><a href="#"><i></i>Login with <span>Google</span></a></button>
+                        <button><a href="#"><i></i>Login with <span>Facebook</span></a></button>
+                    </div>
+                </div>
+                <div class="login-img">
+                    <div class="img">
+                        <img src="/assets/login-person.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

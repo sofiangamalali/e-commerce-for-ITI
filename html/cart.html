@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="icon" type="image/x-icon" href="../assets/minlogo.jpg" />
+    <script src="../js/cart.js" defer></script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <section>
+        <div class="main-cart-div">
+            <div class="shopping-cart">
+                <div class="header-shopping">
+                    <h3>shopping cart</h3>
+                    <span> <span class="qunatity">0</span> items</span>
+
+                </div>
+                <hr>
+
+                <div class="cart-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product details</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        <tbody>
+
+                        </tbody>
+                        </thead>
+                    </table>
+                </div>
+
+            </div>
+            <div class="summary-cart">
+                <h2>Order summary</h2>
+                <hr>
+                <div class="header-summary">
+                    <span> <span class="qunatity">0</span> items</span>
+                    <p class="total-cost-p">$0</p>
+                </div>
+                <label for="shopping">Shipping</label>
+                <select name="shopping-itmes" id="">
+                    <option value="">Standard delivery - $5.00 </option>
+
+                </select>
+
+                <label for="promo-code">Promo Code</label>
+                <input type="text" placeholder="Enter your code">
+                <input type="button" value="APPLY" class="apply-btn">
+                <hr>
+                <div class="finaly-total">
+                    <h4>Total cost</h4>
+                    <p class="total-cost-p">$0</p>
+                </div>
+                <input type="button" value="checkout" class="checkout-btn" onclick="checkOut()">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
